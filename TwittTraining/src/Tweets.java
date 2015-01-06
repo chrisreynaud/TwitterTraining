@@ -326,7 +326,7 @@ public class Tweets {
 						
 						// Insert into mongodb
 						// For debug -- System.out.println("Account: " + myObject_final + "\n");
-						connectDBMongo.insertDB(myObject_final);
+						//connectDBMongo.insertDB(myObject_final);
 						
 						// Count
 						myCount = myCount + 1;
